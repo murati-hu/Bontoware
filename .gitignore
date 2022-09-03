@@ -10,6 +10,8 @@
 *.zip
 *.exe
 *.ocx
+*.oca
+
 
 
 # User-specific files
