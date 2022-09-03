@@ -3,6 +3,15 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# Visual Basic
+*.lib
+*.exp
+*.dll
+*.zip
+*.exe
+*.ocx
+
+
 # User-specific files
 *.rsuser
 *.suo

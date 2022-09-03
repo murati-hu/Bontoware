@@ -1,0 +1,104 @@
+<html>
+<body>
+<table style="width: 19 cm;">
+       <tr>
+           <td colspan="4">
+<h6 align="right">Számlaszám:
+<#!SZAMLASZAM!#>
+</h6>
+<h1 align="center">Számla</h1>
+           </td>
+       </tr>
+</table>
+<table style="width: 19 cm;" border="1">
+       <tr>
+           <th colspan="2">Eladó</th>
+           <th colspan="2">Vevõ</th>
+       </tr>
+       <tr>
+<td colspan="2">
+<#!ELADO_ADAT!#>
+</td>
+<td colspan="2">
+<#!VEVO_ADAT!#>
+</td>
+       </tr>
+       <tr>
+           <td>Fizetési mód</td>
+           <td>Teljesítés dátuma</td>
+           <td>Számla kelte</td>
+           <td>Fizetési határidõ</td>
+       </tr>
+       <tr>
+<td>
+<#!FIZMOD!#>
+</td>
+<td>
+<#!TELJDAT!#>
+</td>
+<td>
+<#!KELT!#>
+</td>
+<td>
+<#!HATARIDO!#>
+</td>
+       </tr>
+       <tr>
+           <td colspan="4">&nbsp;</td>
+       </tr>
+       <tr>
+           <td colspan="4">
+               <table border="1" align="center">
+                      <tr>
+                          <td>Megnevezés és cikkszám</td>
+                          <td>VTSZ</td>
+                          <td>Minõsítés</td>
+                          <td>Áfa</td>
+                          <td>Mennyiség</td>
+                          <td>Eladási Ár</td>
+                          <td>Nettó érték</td>
+                          <td>Áfa érték</td>
+                          <td>Bruttó érték</td>
+                      </tr>
+<#!TARTALOM!#>
+               </table>
+           </td>
+       </tr>
+<tr>
+           <td colspan="4"><h3>Fizetendõ összesen:
+<#!OSSZ!#>
+, azaz
+<#!OSSZ_SZOV!#>
+</td>
+       </tr>
+</table>
+
+<TABLE BORDER=0 CELLPADDING=4 CELLSPACING=0 STYLE="width: 19cm;">
+		<COL WIDTH=313>
+		<COL WIDTH=312>
+		<THEAD>
+			<TR VALIGN=TOP>
+				<TH WIDTH=313>
+					<P ALIGN=CENTER>&hellip;<SPAN STYLE="font-weight: medium"><SPAN STYLE="font-style: normal"><FONT SIZE=2>..................................................................</FONT></SPAN></SPAN></P>
+				</TH>
+				<TH WIDTH=312>
+					<P ALIGN=CENTER>&hellip;<SPAN STYLE="font-weight: medium"><SPAN STYLE="font-style: normal"><FONT SIZE=2>..................................................................</FONT></SPAN></SPAN></P>
+				</TH>
+			</TR>
+		</THEAD>
+		<TBODY>
+			<TR VALIGN=TOP>
+				<TD WIDTH=313>
+					<P ALIGN=CENTER><FONT SIZE=2>eladó</FONT></P>
+				</TD>
+				<TD WIDTH=312>
+					<P ALIGN=CENTER><FONT SIZE=2>vevõ</FONT></P>
+				</TD>
+			</TR>
+		</TBODY>
+	</TABLE>
+</CENTER>
+       </tr>
+</table>
+</body>
+</html>

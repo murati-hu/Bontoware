@@ -1,0 +1,121 @@
+<html>
+<body>
+<table style="width: 19 cm;">
+       <tr>
+           <td colspan="4">
+<h6 align="right">Számlaszám:
+<#!SZAMLASZAM!#>
+</h6>
+<h1 align="center">Számla</h1>
+           </td>
+       </tr>
+</table>
+<table style="width: 19 cm; border: 1px;" border="1">
+       <tr>
+           <th colspan="2">Eladó</th>
+           <th colspan="2">Vevõ</th>
+       </tr>
+       <tr>
+<td colspan="2">
+<#!ELADO_ADAT!#>
+</td>
+<td colspan="2">
+<#!VEVO_ADAT!#>
+</td>
+       </tr>
+       <tr>
+           <td>Fizetési mód</td>
+           <td>Teljesítés dátuma</td>
+           <td>Számla kelte</td>
+           <td>Fizetési határidõ</td>
+       </tr>
+       <tr>
+<td>
+<#!FIZMOD!#>
+</td>
+<td>
+<#!TELJDAT!#>
+</td>
+<td>
+<#!KELT!#>
+</td>
+<td>
+<#!HATARIDO!#>
+</td>
+       </tr>
+       <tr>
+           <td colspan="4">&nbsp;</td>
+       </tr>
+       <tr>
+           <td colspan="4"  style="border:0px;">
+               <table border="1" align="center" style="width: 19 cm; border: 1px;">
+                      <tr>
+                          <th>Megnevezés és cikkszám</th>
+                          <th>VTSZ</th>
+                          <th>Minõsítés</th>
+                          <th>Áfa</th>
+                          <th>Mennyiség</th>
+                          <th>Eladási Ár</th>
+                          <th>Nettó érték</th>
+                          <th>Áfa érték</th>
+                          <th>Bruttó érték</th>
+                      </tr>
+<#!TARTALOM!#>
+               </table>
+           </td>
+       </tr>
+
+<tr height="100" valign="bottom" style="border:0px;">
+<td colspan="4"  style="border:0px;">
+<p><br /><br /></p>
+<table border="1" style="border: 1px;">
+<tr>
+<td valign="bottom" align="center">
+<b>A kék színnel jelölt fõdarab részegység alkatrész FELÚJÍTÁS NÉLKÜL BEÉPÍTHETÕ!
+<p>A piros színnel jelölt fõdarab részegység alkatrész CSAK FELÚJÍTÁS VAGY JAVÍTÁS UTÁN ÉPÍTHETÕ BE!</p>
+</b>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+
+<tr height="100" valign="bottom" style="border:0px;">
+           <td colspan="4"  style="border:0px;"><h3>Fizetendõ összesen:
+<#!OSSZ!#>
+, azaz
+<#!OSSZ_SZOV!#>
+</td>
+       </tr>
+</table>
+
+
+<TABLE BORDER=0 CELLPADDING=4 CELLSPACING=0 STYLE="width: 19cm;">
+		<COL WIDTH=313>
+		<COL WIDTH=312>
+		<THEAD>
+			<TR VALIGN=TOP >
+				<TH WIDTH=313 height=100 valign="bottom">
+					<P ALIGN=CENTER>&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;</P>
+				</TH>
+				<TH WIDTH=312 height=100 valign="bottom">
+					<P ALIGN=CENTER>&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;</P>
+				</TH>
+			</TR>
+		</THEAD>
+		<TBODY>
+			<TR VALIGN=TOP>
+				<TD WIDTH=313>
+					<P ALIGN=CENTER><FONT SIZE=2>eladó</FONT></P>
+				</TD>
+				<TD WIDTH=312>
+					<P ALIGN=CENTER><FONT SIZE=2>vevõ</FONT></P>
+				</TD>
+			</TR>
+		</TBODY>
+	</TABLE>
+</CENTER>
+       </tr>
+</table>
+</body>
+</html>
