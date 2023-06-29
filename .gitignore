@@ -8,7 +8,7 @@
 *.exp
 *.dll
 *.zip
-#*.exe
+*.exe
 *.ocx
 *.oca
 
